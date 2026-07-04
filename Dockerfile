@@ -33,6 +33,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-humble-rviz2 \
     ros-humble-ur-description \
     ros-humble-ur-moveit-config \
+    nlohmann-json3-dev \
+    ros-humble-ros2-control-test-assets \
+    ros-humble-joint-state-publisher-gui \
     libgl1-mesa-glx \
     libgl1-mesa-dri \
     mesa-utils \
