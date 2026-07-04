@@ -1,0 +1,4 @@
+Invoking command in '/ws/build/bcr_ur5e_moveit_config': CMAKE_PREFIX_PATH=/ws/install/bcr_ur5e_description:/ws/install/bcr_ur5e_moveit_config:/opt/ros/humble /usr/bin/cmake --build /ws/build/bcr_ur5e_moveit_config -- -j4 -l4
+Invoked command in '/ws/build/bcr_ur5e_moveit_config' returned '0': CMAKE_PREFIX_PATH=/ws/install/bcr_ur5e_description:/ws/install/bcr_ur5e_moveit_config:/opt/ros/humble /usr/bin/cmake --build /ws/build/bcr_ur5e_moveit_config -- -j4 -l4
+Invoking command in '/ws/build/bcr_ur5e_moveit_config': CMAKE_PREFIX_PATH=/ws/install/bcr_ur5e_description:/ws/install/bcr_ur5e_moveit_config:/opt/ros/humble /usr/bin/cmake --install /ws/build/bcr_ur5e_moveit_config
+Invoked command in '/ws/build/bcr_ur5e_moveit_config' returned '0': CMAKE_PREFIX_PATH=/ws/install/bcr_ur5e_description:/ws/install/bcr_ur5e_moveit_config:/opt/ros/humble /usr/bin/cmake --install /ws/build/bcr_ur5e_moveit_config

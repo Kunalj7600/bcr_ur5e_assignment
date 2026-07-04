@@ -1,0 +1,22 @@
+services:
+  bcr_ur5e:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bcr_ur5e
+    network_mode: host
+    ipc: host
+    privileged: true
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - XDG_RUNTIME_DIR=/tmp
+      - ROS_DOMAIN_ID=42
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      - MUJOCO_GL=glfw
+    volumes:
+      - .:/ws
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /dev/dri:/dev/dri
+    working_dir: /ws
+    command: bash -lc "source /opt/ros/humble/setup.bash && tail -f /dev/null"

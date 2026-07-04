@@ -1,0 +1,103 @@
+<mujoco model="ur5e_table_scene">
+  <compiler angle="radian" autolimits="true"/>
+
+  <!-- UR5e from MuJoCo Menagerie.
+       Do not change the robot physical model. -->
+  <include file="ur5e_assignment.xml"/>
+
+  <option timestep="0.002" gravity="0 0 -9.81"/>
+
+  <statistic center="0.35 0 -0.1" extent="2.2"/>
+
+  <visual>
+    <global azimuth="135" elevation="-25"/>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.2 0.2 0.2" specular="0.2 0.2 0.2"/>
+  </visual>
+
+  <asset>
+    <texture name="floor_grid" type="2d" builtin="checker"
+             width="512" height="512"
+             rgb1="0.16 0.16 0.16" rgb2="0.24 0.24 0.24"/>
+
+    <material name="floor_mat" texture="floor_grid" texrepeat="4 4" reflectance="0.15"/>
+    <material name="table_top_mat" rgba="0.33 0.20 0.10 1"/>
+    <material name="table_leg_mat" rgba="0.22 0.13 0.07 1"/>
+  </asset>
+
+  <worldbody>
+    <!-- Floor is 1 m below the robot base/tabletop. -->
+    <geom name="floor"
+          type="plane"
+          pos="0 0 -1.0"
+          size="4 4 0.05"
+          material="floor_mat"
+          contype="1"
+          conaffinity="1"/>
+
+    <light name="key_light"
+           pos="0 -3 3"
+           dir="0 1 -1"
+           diffuse="1 1 1"/>
+
+    <light name="fill_light"
+           pos="3 2 2"
+           dir="-1 -1 -1"
+           diffuse="0.45 0.45 0.45"/>
+
+    <!--
+      Assignment table dimensions:
+      Full size: 2.0 m length x 1.5 m width x 1.0 m height
+    -->
+
+    <!-- Table top:
+         visual/collision thickness = 0.05 m
+         MuJoCo box size is half-extents:
+         x = 1.0 means full length 2.0 m
+         y = 0.75 means full width 1.5 m
+         z = 0.025 means full thickness 0.05 m
+         center z = -0.025 gives top surface at z = 0 -->
+    <body name="table" pos="0 0 0">
+      <geom name="table_top"
+            type="box"
+            pos="0 0 -0.025"
+            size="1.0 0.75 0.025"
+            material="table_top_mat"
+            contype="1"
+            conaffinity="1"/>
+
+      <!--Legs-->
+      <geom name="table_leg_front_left"
+            type="box"
+            pos="0.90 0.65 -0.525"
+            size="0.045 0.045 0.475"
+            material="table_leg_mat"
+            contype="1"
+            conaffinity="1"/>
+
+      <geom name="table_leg_front_right"
+            type="box"
+            pos="0.90 -0.65 -0.525"
+            size="0.045 0.045 0.475"
+            material="table_leg_mat"
+            contype="1"
+            conaffinity="1"/>
+
+      <geom name="table_leg_back_left"
+            type="box"
+            pos="-0.90 0.65 -0.525"
+            size="0.045 0.045 0.475"
+            material="table_leg_mat"
+            contype="1"
+            conaffinity="1"/>
+
+      <geom name="table_leg_back_right"
+            type="box"
+            pos="-0.90 -0.65 -0.525"
+            size="0.045 0.045 0.475"
+            material="table_leg_mat"
+            contype="1"
+            conaffinity="1"/>
+    </body>
+
+  </worldbody>
+</mujoco>

@@ -1,0 +1,4 @@
+source;share/bcr_ur5e_description/local_setup.bash
+source;share/bcr_ur5e_description/local_setup.dsv
+source;share/bcr_ur5e_description/local_setup.sh
+source;share/bcr_ur5e_description/local_setup.zsh

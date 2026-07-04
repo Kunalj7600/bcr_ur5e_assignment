@@ -1,0 +1,46 @@
+[0.016s] Invoking command in '/ws/build/bcr_ur5e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws/build/bcr_ur5e_description -- -j4 -l4
+[0.093s] Invoked command in '/ws/build/bcr_ur5e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws/build/bcr_ur5e_description -- -j4 -l4
+[0.110s] Invoking command in '/ws/build/bcr_ur5e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws/build/bcr_ur5e_description
+[0.127s] -- Install configuration: ""
+[0.128s] -- Execute custom install script
+[0.129s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/base_0.obj
+[0.130s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/base_1.obj
+[0.130s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/forearm_0.obj
+[0.130s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/forearm_1.obj
+[0.130s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/forearm_2.obj
+[0.130s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/forearm_3.obj
+[0.131s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/shoulder_0.obj
+[0.131s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/shoulder_1.obj
+[0.131s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/shoulder_2.obj
+[0.131s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/upperarm_0.obj
+[0.132s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/upperarm_1.obj
+[0.132s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/upperarm_2.obj
+[0.133s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/upperarm_3.obj
+[0.133s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/wrist1_0.obj
+[0.134s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/wrist1_1.obj
+[0.134s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/wrist1_2.obj
+[0.134s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/wrist2_0.obj
+[0.134s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/wrist2_1.obj
+[0.134s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/wrist2_2.obj
+[0.135s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/assets/wrist3.obj
+[0.135s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/scene_table.xml
+[0.135s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/ur5e_assignment.xml
+[0.136s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/launch/display_urdf.launch.py
+[0.136s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/launch/mujoco_viewer.launch.py
+[0.136s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/urdf/ur5e_with_tool.urdf.xacro
+[0.137s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/ament_index/resource_index/package_run_dependencies/bcr_ur5e_description
+[0.137s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/ament_index/resource_index/parent_prefix_path/bcr_ur5e_description
+[0.138s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/environment/ament_prefix_path.sh
+[0.138s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/environment/ament_prefix_path.dsv
+[0.138s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/environment/path.sh
+[0.139s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/environment/path.dsv
+[0.139s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/local_setup.bash
+[0.139s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/local_setup.sh
+[0.140s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/local_setup.zsh
+[0.140s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/local_setup.dsv
+[0.141s] -- Symlinking: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/package.dsv
+[0.155s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/ament_index/resource_index/packages/bcr_ur5e_description
+[0.156s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/cmake/bcr_ur5e_descriptionConfig.cmake
+[0.156s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/cmake/bcr_ur5e_descriptionConfig-version.cmake
+[0.156s] -- Up-to-date symlink: /ws/install/bcr_ur5e_description/share/bcr_ur5e_description/package.xml
+[0.161s] Invoked command in '/ws/build/bcr_ur5e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws/build/bcr_ur5e_description
