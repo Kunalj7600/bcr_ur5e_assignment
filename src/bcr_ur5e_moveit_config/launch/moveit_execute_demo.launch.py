@@ -161,6 +161,21 @@ def generate_launch_description():
         ],
     )
 
+
+    cycle_controller = Node(
+        package="bcr_cycle_controller",
+        executable="cycle_controller",
+        output="screen",
+        parameters=[
+            robot_description,
+            robot_description_semantic,
+            robot_description_kinematics,
+            robot_description_planning,
+            ompl_planning_pipeline_config,
+            {"use_sim_time": False},
+        ],
+    )
+
     rviz = ExecuteProcess(
         cmd=["rviz2"],
         output="screen",
@@ -172,5 +187,6 @@ def generate_launch_description():
         trajectory_controller_spawner,
         robot_state_publisher,
         move_group,
+        cycle_controller,
         rviz,
     ])
