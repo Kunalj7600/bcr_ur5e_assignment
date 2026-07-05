@@ -1,0 +1,9 @@
+build/
+install/
+log/
+mujoco_logs/
+mujoco_logs.tar.gz
+__pycache__/
+*.pyc
+*.bag
+*.db3

@@ -1,8 +1,0 @@
-source;share/bcr_ur5e_description/hook/cmake_prefix_path.ps1
-source;share/bcr_ur5e_description/hook/cmake_prefix_path.dsv
-source;share/bcr_ur5e_description/hook/cmake_prefix_path.sh
-source;share/bcr_ur5e_description/local_setup.bash
-source;share/bcr_ur5e_description/local_setup.dsv
-source;share/bcr_ur5e_description/local_setup.ps1
-source;share/bcr_ur5e_description/local_setup.sh
-source;share/bcr_ur5e_description/local_setup.zsh

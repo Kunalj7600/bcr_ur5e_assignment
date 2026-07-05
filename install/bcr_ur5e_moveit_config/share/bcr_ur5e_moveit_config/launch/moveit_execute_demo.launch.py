@@ -1,1 +1,0 @@
-/ws/src/bcr_ur5e_moveit_config/launch/moveit_execute_demo.launch.py

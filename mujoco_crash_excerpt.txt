@@ -1,0 +1,299 @@
+
+
+========== around line 87 ==========
+[ros2_control_node-2] #12   Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b632d8f, in 
+[ros2_control_node-2] #11   Object "/opt/ros/humble/lib/mujoco_ros2_control/ros2_control_node", at 0x62a9c773ca4b, in 
+[ros2_control_node-2] #10   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7b5f4bd4448a, in controller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)
+[ros2_control_node-2] #9    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7b5f4bd3f43f, in controller_manager::ControllerManager::init_resource_manager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+[ros2_control_node-2] #8    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7b5f4b4ff334, in hardware_interface::ResourceManager::load_urdf(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, bool)
+[ros2_control_node-2] #7    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7b5f4b4db723, in 
+[ros2_control_node-2] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b9004d7, in __cxa_throw
+[ros2_control_node-2] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b900276, in std::terminate()
+[ros2_control_node-2] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b90020b, in 
+[ros2_control_node-2] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b8f4b9d, in 
+[ros2_control_node-2] #2    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b6317f2, in abort
+[ros2_control_node-2] #1    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b64b475, in raise
+
+
+========== around line 88 ==========
+[ros2_control_node-2] #11   Object "/opt/ros/humble/lib/mujoco_ros2_control/ros2_control_node", at 0x62a9c773ca4b, in 
+[ros2_control_node-2] #10   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7b5f4bd4448a, in controller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)
+[ros2_control_node-2] #9    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7b5f4bd3f43f, in controller_manager::ControllerManager::init_resource_manager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+[ros2_control_node-2] #8    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7b5f4b4ff334, in hardware_interface::ResourceManager::load_urdf(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, bool)
+[ros2_control_node-2] #7    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7b5f4b4db723, in 
+[ros2_control_node-2] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b9004d7, in __cxa_throw
+[ros2_control_node-2] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b900276, in std::terminate()
+[ros2_control_node-2] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b90020b, in 
+[ros2_control_node-2] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b8f4b9d, in 
+[ros2_control_node-2] #2    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b6317f2, in abort
+[ros2_control_node-2] #1    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b64b475, in raise
+[ros2_control_node-2] #0    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b69f9fc, in pthread_kill
+
+
+========== around line 90 ==========
+[ros2_control_node-2] #9    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7b5f4bd3f43f, in controller_manager::ControllerManager::init_resource_manager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+[ros2_control_node-2] #8    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7b5f4b4ff334, in hardware_interface::ResourceManager::load_urdf(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, bool)
+[ros2_control_node-2] #7    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7b5f4b4db723, in 
+[ros2_control_node-2] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b9004d7, in __cxa_throw
+[ros2_control_node-2] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b900276, in std::terminate()
+[ros2_control_node-2] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b90020b, in 
+[ros2_control_node-2] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b8f4b9d, in 
+[ros2_control_node-2] #2    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b6317f2, in abort
+[ros2_control_node-2] #1    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b64b475, in raise
+[ros2_control_node-2] #0    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b69f9fc, in pthread_kill
+[ros2_control_node-2] Aborted (Signal sent by tkill() 5547 0)
+[ERROR] [ros2_control_node-2]: process has died [pid 5547, exit code -6, cmd '/opt/ros/humble/lib/mujoco_ros2_control/ros2_control_node --ros-args --params-file /tmp/launch_params_rfbd_h9n --params-file /tmp/launch_params_59rk0ssw --params-file /ws/install/bcr_ur5e_moveit_config/share/bcr_ur5e_moveit_config/config/ros2_controllers.yaml'].
+
+
+========== around line 93 ==========
+[ros2_control_node-2] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b9004d7, in __cxa_throw
+[ros2_control_node-2] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b900276, in std::terminate()
+[ros2_control_node-2] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b90020b, in 
+[ros2_control_node-2] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b8f4b9d, in 
+[ros2_control_node-2] #2    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b6317f2, in abort
+[ros2_control_node-2] #1    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b64b475, in raise
+[ros2_control_node-2] #0    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b69f9fc, in pthread_kill
+[ros2_control_node-2] Aborted (Signal sent by tkill() 5547 0)
+[ERROR] [ros2_control_node-2]: process has died [pid 5547, exit code -6, cmd '/opt/ros/humble/lib/mujoco_ros2_control/ros2_control_node --ros-args --params-file /tmp/launch_params_rfbd_h9n --params-file /tmp/launch_params_59rk0ssw --params-file /ws/install/bcr_ur5e_moveit_config/share/bcr_ur5e_moveit_config/config/ros2_controllers.yaml'].
+[INFO] [ros2-3]: process started with pid [5574]
+[ros2-3] [INFO] [1783186639.722874254] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [ros2-4]: process started with pid [5586]
+
+
+========== around line 96 ==========
+[ros2_control_node-2] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b8f4b9d, in 
+[ros2_control_node-2] #2    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b6317f2, in abort
+[ros2_control_node-2] #1    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b64b475, in raise
+[ros2_control_node-2] #0    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b69f9fc, in pthread_kill
+[ros2_control_node-2] Aborted (Signal sent by tkill() 5547 0)
+[ERROR] [ros2_control_node-2]: process has died [pid 5547, exit code -6, cmd '/opt/ros/humble/lib/mujoco_ros2_control/ros2_control_node --ros-args --params-file /tmp/launch_params_rfbd_h9n --params-file /tmp/launch_params_59rk0ssw --params-file /ws/install/bcr_ur5e_moveit_config/share/bcr_ur5e_moveit_config/config/ros2_controllers.yaml'].
+[INFO] [ros2-3]: process started with pid [5574]
+[ros2-3] [INFO] [1783186639.722874254] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [ros2-4]: process started with pid [5586]
+[ros2-4] [INFO] [1783186640.930784987] [spawner_ur_manipulator_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [move_group-5]: process started with pid [5598]
+[move_group-5] [INFO] [1783186641.192659309] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+
+
+========== around line 97 ==========
+[ros2_control_node-2] #2    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b6317f2, in abort
+[ros2_control_node-2] #1    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b64b475, in raise
+[ros2_control_node-2] #0    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b69f9fc, in pthread_kill
+[ros2_control_node-2] Aborted (Signal sent by tkill() 5547 0)
+[ERROR] [ros2_control_node-2]: process has died [pid 5547, exit code -6, cmd '/opt/ros/humble/lib/mujoco_ros2_control/ros2_control_node --ros-args --params-file /tmp/launch_params_rfbd_h9n --params-file /tmp/launch_params_59rk0ssw --params-file /ws/install/bcr_ur5e_moveit_config/share/bcr_ur5e_moveit_config/config/ros2_controllers.yaml'].
+[INFO] [ros2-3]: process started with pid [5574]
+[ros2-3] [INFO] [1783186639.722874254] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [ros2-4]: process started with pid [5586]
+[ros2-4] [INFO] [1783186640.930784987] [spawner_ur_manipulator_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [move_group-5]: process started with pid [5598]
+[move_group-5] [INFO] [1783186641.192659309] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-5] [INFO] [1783186641.192781763] [moveit_robot_model.robot_model]: Loading robot model 'bcr_ur5e'...
+
+
+========== around line 99 ==========
+[ros2_control_node-2] #0    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b69f9fc, in pthread_kill
+[ros2_control_node-2] Aborted (Signal sent by tkill() 5547 0)
+[ERROR] [ros2_control_node-2]: process has died [pid 5547, exit code -6, cmd '/opt/ros/humble/lib/mujoco_ros2_control/ros2_control_node --ros-args --params-file /tmp/launch_params_rfbd_h9n --params-file /tmp/launch_params_59rk0ssw --params-file /ws/install/bcr_ur5e_moveit_config/share/bcr_ur5e_moveit_config/config/ros2_controllers.yaml'].
+[INFO] [ros2-3]: process started with pid [5574]
+[ros2-3] [INFO] [1783186639.722874254] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [ros2-4]: process started with pid [5586]
+[ros2-4] [INFO] [1783186640.930784987] [spawner_ur_manipulator_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [move_group-5]: process started with pid [5598]
+[move_group-5] [INFO] [1783186641.192659309] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-5] [INFO] [1783186641.192781763] [moveit_robot_model.robot_model]: Loading robot model 'bcr_ur5e'...
+[move_group-5] [INFO] [1783186641.192796927] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-5] [INFO] [1783186641.303976138] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+
+
+========== around line 105 ==========
+[ros2-4] [INFO] [1783186640.930784987] [spawner_ur_manipulator_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [move_group-5]: process started with pid [5598]
+[move_group-5] [INFO] [1783186641.192659309] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-5] [INFO] [1783186641.192781763] [moveit_robot_model.robot_model]: Loading robot model 'bcr_ur5e'...
+[move_group-5] [INFO] [1783186641.192796927] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-5] [INFO] [1783186641.303976138] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-5] [INFO] [1783186641.304869813] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-5] [INFO] [1783186641.307204687] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-5] [INFO] [1783186641.311176704] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-5] [INFO] [1783186641.311282954] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-5] [INFO] [1783186641.316762775] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-5] [INFO] [1783186641.316809175] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+
+
+========== around line 107 ==========
+[move_group-5] [INFO] [1783186641.192659309] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-5] [INFO] [1783186641.192781763] [moveit_robot_model.robot_model]: Loading robot model 'bcr_ur5e'...
+[move_group-5] [INFO] [1783186641.192796927] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-5] [INFO] [1783186641.303976138] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-5] [INFO] [1783186641.304869813] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-5] [INFO] [1783186641.307204687] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-5] [INFO] [1783186641.311176704] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-5] [INFO] [1783186641.311282954] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-5] [INFO] [1783186641.316762775] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-5] [INFO] [1783186641.316809175] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-5] [INFO] [1783186641.318423059] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-5] [INFO] [1783186641.319978998] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+
+
+========== around line 108 ==========
+[move_group-5] [INFO] [1783186641.192781763] [moveit_robot_model.robot_model]: Loading robot model 'bcr_ur5e'...
+[move_group-5] [INFO] [1783186641.192796927] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-5] [INFO] [1783186641.303976138] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-5] [INFO] [1783186641.304869813] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-5] [INFO] [1783186641.307204687] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-5] [INFO] [1783186641.311176704] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-5] [INFO] [1783186641.311282954] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-5] [INFO] [1783186641.316762775] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-5] [INFO] [1783186641.316809175] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-5] [INFO] [1783186641.318423059] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-5] [INFO] [1783186641.319978998] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-5] [WARN] [1783186641.320274734] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+
+
+========== around line 116 ==========
+[move_group-5] [INFO] [1783186641.316809175] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-5] [INFO] [1783186641.318423059] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-5] [INFO] [1783186641.319978998] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-5] [WARN] [1783186641.320274734] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-5] [ERROR] [1783186641.320305965] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-5] [INFO] [1783186641.328098615] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-5] [INFO] [1783186641.360381792] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-5] [INFO] [1783186641.366405747] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1783186641.366451525] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1783186641.366464581] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-5] [INFO] [1783186641.366502032] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-5] [INFO] [1783186641.366540519] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+
+
+========== around line 117 ==========
+[move_group-5] [INFO] [1783186641.318423059] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-5] [INFO] [1783186641.319978998] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-5] [WARN] [1783186641.320274734] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-5] [ERROR] [1783186641.320305965] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-5] [INFO] [1783186641.328098615] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-5] [INFO] [1783186641.360381792] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-5] [INFO] [1783186641.366405747] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1783186641.366451525] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1783186641.366464581] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-5] [INFO] [1783186641.366502032] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-5] [INFO] [1783186641.366540519] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-5] [INFO] [1783186641.366562135] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+
+
+========== around line 118 ==========
+[move_group-5] [INFO] [1783186641.319978998] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-5] [WARN] [1783186641.320274734] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-5] [ERROR] [1783186641.320305965] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-5] [INFO] [1783186641.328098615] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-5] [INFO] [1783186641.360381792] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-5] [INFO] [1783186641.366405747] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1783186641.366451525] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1783186641.366464581] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-5] [INFO] [1783186641.366502032] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-5] [INFO] [1783186641.366540519] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-5] [INFO] [1783186641.366562135] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1783186641.366584406] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+
+
+========== around line 123 ==========
+[move_group-5] [INFO] [1783186641.366405747] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1783186641.366451525] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1783186641.366464581] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-5] [INFO] [1783186641.366502032] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-5] [INFO] [1783186641.366540519] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-5] [INFO] [1783186641.366562135] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1783186641.366584406] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1783186641.366605171] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was not set. Using default value: 0.020000
+[move_group-5] [INFO] [1783186641.366615476] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-5] [INFO] [1783186641.366646810] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-5] [INFO] [1783186641.366655369] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-5] [INFO] [1783186641.366663162] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+
+
+========== around line 133 ==========
+[move_group-5] [INFO] [1783186641.366655369] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-5] [INFO] [1783186641.366663162] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-5] [INFO] [1783186641.366682008] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-5] [INFO] [1783186641.366693767] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-5] [INFO] [1783186641.414473834] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for ur_manipulator_controller
+[move_group-5] [INFO] [1783186641.415015671] [moveit.plugins.moveit_simple_controller_manager]: Returned 1 controllers in list
+[move_group-5] [INFO] [1783186641.415078239] [moveit.plugins.moveit_simple_controller_manager]: Returned 1 controllers in list
+[move_group-5] [INFO] [1783186641.416199707] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-5] [INFO] [1783186641.416234502] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-5] [INFO] [1783186641.467748659] [move_group.move_group]: 
+[move_group-5] 
+[move_group-5] ********************************************************
+
+
+========== around line 134 ==========
+[move_group-5] [INFO] [1783186641.366663162] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-5] [INFO] [1783186641.366682008] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-5] [INFO] [1783186641.366693767] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-5] [INFO] [1783186641.414473834] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for ur_manipulator_controller
+[move_group-5] [INFO] [1783186641.415015671] [moveit.plugins.moveit_simple_controller_manager]: Returned 1 controllers in list
+[move_group-5] [INFO] [1783186641.415078239] [moveit.plugins.moveit_simple_controller_manager]: Returned 1 controllers in list
+[move_group-5] [INFO] [1783186641.416199707] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-5] [INFO] [1783186641.416234502] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-5] [INFO] [1783186641.467748659] [move_group.move_group]: 
+[move_group-5] 
+[move_group-5] ********************************************************
+[move_group-5] * MoveGroup using: 
+
+
+========== around line 135 ==========
+[move_group-5] [INFO] [1783186641.366682008] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-5] [INFO] [1783186641.366693767] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-5] [INFO] [1783186641.414473834] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for ur_manipulator_controller
+[move_group-5] [INFO] [1783186641.415015671] [moveit.plugins.moveit_simple_controller_manager]: Returned 1 controllers in list
+[move_group-5] [INFO] [1783186641.415078239] [moveit.plugins.moveit_simple_controller_manager]: Returned 1 controllers in list
+[move_group-5] [INFO] [1783186641.416199707] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-5] [INFO] [1783186641.416234502] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-5] [INFO] [1783186641.467748659] [move_group.move_group]: 
+[move_group-5] 
+[move_group-5] ********************************************************
+[move_group-5] * MoveGroup using: 
+[move_group-5] *     - ApplyPlanningSceneService
+
+
+========== around line 154 ==========
+[move_group-5] *     - QueryPlannersService
+[move_group-5] *     - StateValidationService
+[move_group-5] ********************************************************
+[move_group-5] 
+[move_group-5] [INFO] [1783186641.467834867] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-5] [INFO] [1783186641.467861335] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-5] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+
+
+========== around line 172 ==========
+[move_group-5] 
+[INFO] [cycle_controller-6]: process started with pid [5621]
+[cycle_controller-6] [INFO] [1783186643.155568533] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[cycle_controller-6] [INFO] [1783186643.155966209] [moveit_robot_model.robot_model]: Loading robot model 'bcr_ur5e'...
+[cycle_controller-6] [INFO] [1783186643.155986688] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[cycle_controller-6] [INFO] [1783186643.268347988] [move_group_interface]: Ready to take commands for planning group ur_manipulator.
+[cycle_controller-6] [INFO] [1783186643.288119785] [bcr_cycle_controller]: BCR cycle controller ready.
+[INFO] [rviz2-7]: process started with pid [5639]
+[rviz2-7] QStandardPaths: wrong permissions on runtime directory /tmp, 0777 instead of 0700
+[rviz2-7] [INFO] [1783186644.469110553] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1783186644.469283571] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-7] [INFO] [1783186644.519831375] [rviz2]: Stereo is NOT SUPPORTED
+
+
+========== around line 173 ==========
+[INFO] [cycle_controller-6]: process started with pid [5621]
+[cycle_controller-6] [INFO] [1783186643.155568533] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[cycle_controller-6] [INFO] [1783186643.155966209] [moveit_robot_model.robot_model]: Loading robot model 'bcr_ur5e'...
+[cycle_controller-6] [INFO] [1783186643.155986688] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[cycle_controller-6] [INFO] [1783186643.268347988] [move_group_interface]: Ready to take commands for planning group ur_manipulator.
+[cycle_controller-6] [INFO] [1783186643.288119785] [bcr_cycle_controller]: BCR cycle controller ready.
+[INFO] [rviz2-7]: process started with pid [5639]
+[rviz2-7] QStandardPaths: wrong permissions on runtime directory /tmp, 0777 instead of 0700
+[rviz2-7] [INFO] [1783186644.469110553] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1783186644.469283571] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-7] [INFO] [1783186644.519831375] [rviz2]: Stereo is NOT SUPPORTED

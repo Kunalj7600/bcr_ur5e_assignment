@@ -1,1 +1,0 @@
-/ws/build/bcr_ur5e_description/ament_cmake_environment_hooks/local_setup.sh

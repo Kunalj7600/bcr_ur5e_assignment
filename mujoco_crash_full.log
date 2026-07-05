@@ -1,0 +1,179 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-07-04-17-37-13-162706-aion-os-5532
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [5535]
+[robot_state_publisher-1] [INFO] [1783186633.948083156] [robot_state_publisher]: got segment base
+[robot_state_publisher-1] [INFO] [1783186633.948494979] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1783186633.948537326] [robot_state_publisher]: got segment base_link_inertia
+[robot_state_publisher-1] [INFO] [1783186633.948563878] [robot_state_publisher]: got segment ee_link
+[robot_state_publisher-1] [INFO] [1783186633.948578715] [robot_state_publisher]: got segment ee_tool_link
+[robot_state_publisher-1] [INFO] [1783186633.948603640] [robot_state_publisher]: got segment flange
+[robot_state_publisher-1] [INFO] [1783186633.948616272] [robot_state_publisher]: got segment forearm_link
+[robot_state_publisher-1] [INFO] [1783186633.948639886] [robot_state_publisher]: got segment ft_frame
+[robot_state_publisher-1] [INFO] [1783186633.948653679] [robot_state_publisher]: got segment shoulder_link
+[robot_state_publisher-1] [INFO] [1783186633.948678557] [robot_state_publisher]: got segment table_link
+[robot_state_publisher-1] [INFO] [1783186633.948691300] [robot_state_publisher]: got segment tool0
+[robot_state_publisher-1] [INFO] [1783186633.948704386] [robot_state_publisher]: got segment upper_arm_link
+[robot_state_publisher-1] [INFO] [1783186633.948728837] [robot_state_publisher]: got segment world
+[robot_state_publisher-1] [INFO] [1783186633.948741490] [robot_state_publisher]: got segment wrist_1_link
+[robot_state_publisher-1] [INFO] [1783186633.948765937] [robot_state_publisher]: got segment wrist_2_link
+[robot_state_publisher-1] [INFO] [1783186633.948778317] [robot_state_publisher]: got segment wrist_3_link
+[INFO] [ros2_control_node-2]: process started with pid [5547]
+[ros2_control_node-2] [WARN] [1783186635.091731149] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[ros2_control_node-2] [INFO] [1783186635.093151790] [resource_manager]: Loading hardware 'ur5e' 
+[ros2_control_node-2] [INFO] [1783186635.107380910] [resource_manager]: Initialize hardware 'ur5e' 
+[ros2_control_node-2] [INFO] [1783186635.107547939] [MujocoSystemInterface]: Loading 'mujoco_model' from: '/ws/install/bcr_ur5e_description/share/bcr_ur5e_description/mujoco/scene_table.xml'
+[ros2_control_node-2] [INFO] [1783186635.107562791] [MujocoSystemInterface]: No sim_speed set, using the setting from the UI
+[ros2_control_node-2] [INFO] [1783186635.107582084] [MujocoSystemInterface]: Scanning plugin libraries...
+[ros2_control_node-2] [INFO] [1783186635.107679508] [MujocoSystemInterface]: Initializing simulation...
+[ros2_control_node-2] [INFO] [1783186635.546051148] [MujocoSystemInterface]: Starting the MuJoCo rendering thread...
+[ros2_control_node-2] [INFO] [1783186635.546064638] [MujocoSystemInterface]: Sim ready, continuing initialization...
+[ros2_control_node-2] [INFO] [1783186635.546175588] [MujocoSystemInterface]: Constructing node and executor...
+[ros2_control_node-2] [INFO] [1783186635.560330415] [MujocoSystemInterface]: Executor thread started.
+[ros2_control_node-2] [INFO] [1783186635.560378092] [MujocoSystemInterface]: Loading model...
+[ros2_control_node-2] [INFO] [1783186637.983602413] [MujocoSystemInterface]: Constructing publishers.
+[ros2_control_node-2] [INFO] [1783186637.988608593] [MujocoSystemInterface]: Registering actuators.
+[ros2_control_node-2] [INFO] [1783186637.988664121] [MujocoSystemInterface]: override_start_position_file not passed. Loading initial positions from ros2_control xacro.
+[ros2_control_node-2] [INFO] [1783186637.988701003] [MujocoSystemInterface]: Registering MuJoCo actuator 'shoulder_pan_joint' for joint 'shoulder_pan_joint'
+[ros2_control_node-2] [INFO] [1783186637.988716464] [MujocoSystemInterface]: Registering MuJoCo actuator 'shoulder_lift_joint' for joint 'shoulder_lift_joint'
+[ros2_control_node-2] [INFO] [1783186637.988725524] [MujocoSystemInterface]: Registering MuJoCo actuator 'elbow_joint' for joint 'elbow_joint'
+[ros2_control_node-2] [INFO] [1783186637.988744829] [MujocoSystemInterface]: Registering MuJoCo actuator 'wrist_1_joint' for joint 'wrist_1_joint'
+[ros2_control_node-2] [INFO] [1783186637.988751992] [MujocoSystemInterface]: Registering MuJoCo actuator 'wrist_2_joint' for joint 'wrist_2_joint'
+[ros2_control_node-2] [INFO] [1783186637.988758991] [MujocoSystemInterface]: Registering MuJoCo actuator 'wrist_3_joint' for joint 'wrist_3_joint'
+[ros2_control_node-2] [INFO] [1783186637.988769552] [MujocoSystemInterface]: Registering joints and sensors.
+[ros2_control_node-2] [INFO] [1783186637.988794368] [MujocoSystemInterface]: Registering joints...
+[ros2_control_node-2] [INFO] [1783186637.988834745] [MujocoSystemInterface]: Using MuJoCo position actuator for the joint : 'shoulder_pan_joint'
+[ros2_control_node-2] [ERROR] [1783186637.988845112] [MujocoSystemInterface]: Velocity command interface for the joint : shoulder_pan_joint is not supported with position actuator
+[ros2_control_node-2] [ERROR] [1783186637.988918304] [MujocoSystemInterface]: Effort command interface for the joint : shoulder_pan_joint is not supported with position or velocity actuator.Skipping it.
+[ros2_control_node-2] [INFO] [1783186637.988953781] [MujocoSystemInterface]: Using MuJoCo position actuator for the joint : 'shoulder_lift_joint'
+[ros2_control_node-2] [ERROR] [1783186637.988962593] [MujocoSystemInterface]: Velocity command interface for the joint : shoulder_lift_joint is not supported with position actuator
+[ros2_control_node-2] [ERROR] [1783186637.988973926] [MujocoSystemInterface]: Effort command interface for the joint : shoulder_lift_joint is not supported with position or velocity actuator.Skipping it.
+[ros2_control_node-2] [INFO] [1783186637.989001271] [MujocoSystemInterface]: Using MuJoCo position actuator for the joint : 'elbow_joint'
+[ros2_control_node-2] [ERROR] [1783186637.989009592] [MujocoSystemInterface]: Velocity command interface for the joint : elbow_joint is not supported with position actuator
+[ros2_control_node-2] [ERROR] [1783186637.989031468] [MujocoSystemInterface]: Effort command interface for the joint : elbow_joint is not supported with position or velocity actuator.Skipping it.
+[ros2_control_node-2] [INFO] [1783186637.989047690] [MujocoSystemInterface]: Using MuJoCo position actuator for the joint : 'wrist_1_joint'
+[ros2_control_node-2] [ERROR] [1783186637.989056288] [MujocoSystemInterface]: Velocity command interface for the joint : wrist_1_joint is not supported with position actuator
+[ros2_control_node-2] [ERROR] [1783186637.989089953] [MujocoSystemInterface]: Effort command interface for the joint : wrist_1_joint is not supported with position or velocity actuator.Skipping it.
+[ros2_control_node-2] [INFO] [1783186637.989116936] [MujocoSystemInterface]: Using MuJoCo position actuator for the joint : 'wrist_2_joint'
+[ros2_control_node-2] [ERROR] [1783186637.989124592] [MujocoSystemInterface]: Velocity command interface for the joint : wrist_2_joint is not supported with position actuator
+[ros2_control_node-2] [ERROR] [1783186637.989134291] [MujocoSystemInterface]: Effort command interface for the joint : wrist_2_joint is not supported with position or velocity actuator.Skipping it.
+[ros2_control_node-2] [INFO] [1783186637.989160043] [MujocoSystemInterface]: Using MuJoCo position actuator for the joint : 'wrist_3_joint'
+[ros2_control_node-2] [ERROR] [1783186637.989167756] [MujocoSystemInterface]: Velocity command interface for the joint : wrist_3_joint is not supported with position actuator
+[ros2_control_node-2] [ERROR] [1783186637.989177428] [MujocoSystemInterface]: Effort command interface for the joint : wrist_3_joint is not supported with position or velocity actuator.Skipping it.
+[ros2_control_node-2] [INFO] [1783186637.989209891] [MujocoSystemInterface]: Not adding hardware interface for sensor in ros2_control xacro: 'tcp_fts_sensor'
+[ros2_control_node-2] [INFO] [1783186637.989220303] [MujocoSystemInterface]: Not adding hardware interface for sensor in ros2_control xacro: 'tcp_pose'
+[ros2_control_node-2] [INFO] [1783186637.991280473] [MujocoSystemInterface]: Created reset_world service at: /mujoco_ros2_control_node/reset_world
+[ros2_control_node-2] [INFO] [1783186637.991859680] [MujocoSystemInterface]: Created set_pause service at: /mujoco_ros2_control_node/set_pause
+[ros2_control_node-2] [INFO] [1783186637.994063101] [MujocoSystemInterface]: Created step_simulation service at: /mujoco_ros2_control_node/step_simulation
+[ros2_control_node-2] [INFO] [1783186637.994133106] [MujocoSystemInterface]: Initializing cameras...
+[ros2_control_node-2] [INFO] [1783186637.994251536] [MujocoSystemInterface]: Initializing lidar...
+[ros2_control_node-2] [INFO] [1783186637.994689848] [MujocoSystemInterface]: Starting the MuJoCo physics thread...
+[ros2_control_node-2] [INFO] [1783186637.996221308] [MujocoSystemInterface]: No 'mujoco_plugins' parameter found!
+[ros2_control_node-2] [INFO] [1783186637.996329212] [MujocoSystemInterface]: on_init complete.
+[ros2_control_node-2] [INFO] [1783186637.996434810] [resource_manager]: Successful initialization of hardware 'ur5e'
+[ros2_control_node-2] terminate called after throwing an instance of 'std::runtime_error'
+[ros2_control_node-2]   what():  Wrong state or command interface configuration.
+[ros2_control_node-2] missing state interfaces:
+[ros2_control_node-2] ' tcp_fts_sensor/force.x '	' tcp_fts_sensor/force.y '	' tcp_fts_sensor/force.z '	' tcp_fts_sensor/torque.x '	' tcp_fts_sensor/torque.y '	' tcp_fts_sensor/torque.z '	' tcp_pose/position.x '	' tcp_pose/position.y '	' tcp_pose/position.z '	' tcp_pose/orientation.x '	' tcp_pose/orientation.y '	' tcp_pose/orientation.z '	' tcp_pose/orientation.w '	' speed_scaling/speed_scaling_factor '	' gpio/digital_output_0 '	' gpio/digital_output_1 '	' gpio/digital_output_2 '	' gpio/digital_output_3 '	' gpio/digital_output_4 '	' gpio/digital_output_5 '	' gpio/digital_output_6 '	' gpio/digital_output_7 '	' gpio/digital_output_8 '	' gpio/digital_output_9 '	' gpio/digital_output_10 '	' gpio/digital_output_11 '	' gpio/digital_output_12 '	' gpio/digital_output_13 '	' gpio/digital_output_14 '	' gpio/digital_output_15 '	' gpio/digital_output_16 '	' gpio/digital_output_17 '	' gpio/digital_input_0 '	' gpio/digital_input_1 '	' gpio/digital_input_2 '	' gpio/digital_input_3 '	' gpio/digital_input_4 '	' gpio/digital_input_5 '	' gpio/digital_input_6 '	' gpio/digital_input_7 '	' gpio/digital_input_8 '	' gpio/digital_input_9 '	' gpio/digital_input_10 '	' gpio/digital_input_11 '	' gpio/digital_input_12 '	' gpio/digital_input_13 '	' gpio/digital_input_14 '	' gpio/digital_input_15 '	' gpio/digital_input_16 '	' gpio/digital_input_17 '	' gpio/standard_analog_output_0 '	' gpio/standard_analog_output_1 '	' gpio/standard_analog_input_0 '	' gpio/standard_analog_input_1 '	' gpio/analog_io_type_0 '	' gpio/analog_io_type_1 '	' gpio/analog_io_type_2 '	' gpio/analog_io_type_3 '	' gpio/tool_mode '	' gpio/tool_output_voltage '	' gpio/tool_output_current '	' gpio/tool_temperature '	' gpio/tool_analog_input_0 '	' gpio/tool_analog_input_1 '	' gpio/tool_analog_input_type_0 '	' gpio/tool_analog_input_type_1 '	' gpio/robot_mode '	' gpio/robot_status_bit_0 '	' gpio/robot_status_bit_1 '	' gpio/robot_status_bit_2 '	' gpio/robot_status_bit_3 '	' gpio/safety_mode '	' gpio/safety_status_bit_0 '	' gpio/safety_status_bit_1 '	' gpio/safety_status_bit_2 '	' gpio/safety_status_bit_3 '	' gpio/safety_status_bit_4 '	' gpio/safety_status_bit_5 '	' gpio/safety_status_bit_6 '	' gpio/safety_status_bit_7 '	' gpio/safety_status_bit_8 '	' gpio/safety_status_bit_9 '	' gpio/safety_status_bit_10 '	' gpio/program_running '	' payload/mass '	' payload/cog.x '	' payload/cog.y '	' payload/cog.z '	' tool_contact/tool_contact_result '	' tool_contact/tool_contact_state '	' system_interface/initialized '	' get_robot_software_version/get_version_major '	' get_robot_software_version/get_version_minor '	' get_robot_software_version/get_version_build '	' get_robot_software_version/get_version_bugfix '	
+[ros2_control_node-2] missing command interfaces:
+[ros2_control_node-2] ' speed_scaling/target_speed_fraction_cmd '	' speed_scaling/target_speed_fraction_async_success '	' gpio/standard_digital_output_cmd_0 '	' gpio/standard_digital_output_cmd_1 '	' gpio/standard_digital_output_cmd_2 '	' gpio/standard_digital_output_cmd_3 '	' gpio/standard_digital_output_cmd_4 '	' gpio/standard_digital_output_cmd_5 '	' gpio/standard_digital_output_cmd_6 '	' gpio/standard_digital_output_cmd_7 '	' gpio/standard_digital_output_cmd_8 '	' gpio/standard_digital_output_cmd_9 '	' gpio/standard_digital_output_cmd_10 '	' gpio/standard_digital_output_cmd_11 '	' gpio/standard_digital_output_cmd_12 '	' gpio/standard_digital_output_cmd_13 '	' gpio/standard_digital_output_cmd_14 '	' gpio/standard_digital_output_cmd_15 '	' gpio/standard_digital_output_cmd_16 '	' gpio/standard_digital_output_cmd_17 '	' gpio/standard_analog_output_cmd_0 '	' gpio/standard_analog_output_cmd_1 '	' gpio/analog_output_domain_cmd '	' gpio/tool_voltage_cmd '	' gpio/io_async_success '	' payload/mass '	' payload/cog.x '	' payload/cog.y '	' payload/cog.z '	' payload/payload_async_success '	' friction_model/viscous_0 '	' friction_model/viscous_1 '	' friction_model/viscous_2 '	' friction_model/viscous_3 '	' friction_model/viscous_4 '	' friction_model/viscous_5 '	' friction_model/coulomb_0 '	' friction_model/coulomb_1 '	' friction_model/coulomb_2 '	' friction_model/coulomb_3 '	' friction_model/coulomb_4 '	' friction_model/coulomb_5 '	' friction_model/async_success '	' resend_robot_program/resend_robot_program_cmd '	' resend_robot_program/resend_robot_program_async_success '	' hand_back_control/hand_back_control_cmd '	' hand_back_control/hand_back_control_async_success '	' zero_ftsensor/zero_ftsensor_cmd '	' zero_ftsensor/zero_ftsensor_async_success '	' freedrive_mode/async_success '	' freedrive_mode/enable '	' freedrive_mode/abort '	' tool_contact/tool_contact_set_state '	' force_mode/task_frame_x '	' force_mode/task_frame_y '	' force_mode/task_frame_z '	' force_mode/task_frame_rx '	' force_mode/task_frame_ry '	' force_mode/task_frame_rz '	' force_mode/selection_vector_x '	' force_mode/selection_vector_y '	' force_mode/selection_vector_z '	' force_mode/selection_vector_rx '	' force_mode/selection_vector_ry '	' force_mode/selection_vector_rz '	' force_mode/wrench_x '	' force_mode/wrench_y '	' force_mode/wrench_z '	' force_mode/wrench_rx '	' force_mode/wrench_ry '	' force_mode/wrench_rz '	' force_mode/limits_x '	' force_mode/limits_y '	' force_mode/limits_z '	' force_mode/limits_rx '	' force_mode/limits_ry '	' force_mode/limits_rz '	' force_mode/type '	' force_mode/damping '	' force_mode/gain_scaling '	' force_mode/disable_cmd '	' force_mode/force_mode_async_success '	' trajectory_passthrough/setpoint_positions_0 '	' trajectory_passthrough/setpoint_positions_1 '	' trajectory_passthrough/setpoint_positions_2 '	' trajectory_passthrough/setpoint_positions_3 '	' trajectory_passthrough/setpoint_positions_4 '	' trajectory_passthrough/setpoint_positions_5 '	' trajectory_passthrough/setpoint_velocities_0 '	' trajectory_passthrough/setpoint_velocities_1 '	' trajectory_passthrough/setpoint_velocities_2 '	' trajectory_passthrough/setpoint_velocities_3 '	' trajectory_passthrough/setpoint_velocities_4 '	' trajectory_passthrough/setpoint_velocities_5 '	' trajectory_passthrough/setpoint_accelerations_0 '	' trajectory_passthrough/setpoint_accelerations_1 '	' trajectory_passthrough/setpoint_accelerations_2 '	' trajectory_passthrough/setpoint_accelerations_3 '	' trajectory_passthrough/setpoint_accelerations_4 '	' trajectory_passthrough/setpoint_accelerations_5 '	' trajectory_passthrough/transfer_state '	' trajectory_passthrough/time_from_start '	' trajectory_passthrough/abort '	
+[ros2_control_node-2] Stack trace (most recent call last):
+[ros2_control_node-2] #15   Object "", at 0xffffffffffffffff, in 
+[ros2_control_node-2] #14   Object "/opt/ros/humble/lib/mujoco_ros2_control/ros2_control_node", at 0x62a9c773d964, in 
+[ros2_control_node-2] #13   Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b632e3f, in __libc_start_main
+[ros2_control_node-2] #12   Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b632d8f, in 
+[ros2_control_node-2] #11   Object "/opt/ros/humble/lib/mujoco_ros2_control/ros2_control_node", at 0x62a9c773ca4b, in 
+[ros2_control_node-2] #10   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7b5f4bd4448a, in controller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)
+[ros2_control_node-2] #9    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7b5f4bd3f43f, in controller_manager::ControllerManager::init_resource_manager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+[ros2_control_node-2] #8    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7b5f4b4ff334, in hardware_interface::ResourceManager::load_urdf(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, bool)
+[ros2_control_node-2] #7    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7b5f4b4db723, in 
+[ros2_control_node-2] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b9004d7, in __cxa_throw
+[ros2_control_node-2] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b900276, in std::terminate()
+[ros2_control_node-2] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b90020b, in 
+[ros2_control_node-2] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7b5f4b8f4b9d, in 
+[ros2_control_node-2] #2    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b6317f2, in abort
+[ros2_control_node-2] #1    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b64b475, in raise
+[ros2_control_node-2] #0    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7b5f4b69f9fc, in pthread_kill
+[ros2_control_node-2] Aborted (Signal sent by tkill() 5547 0)
+[ERROR] [ros2_control_node-2]: process has died [pid 5547, exit code -6, cmd '/opt/ros/humble/lib/mujoco_ros2_control/ros2_control_node --ros-args --params-file /tmp/launch_params_rfbd_h9n --params-file /tmp/launch_params_59rk0ssw --params-file /ws/install/bcr_ur5e_moveit_config/share/bcr_ur5e_moveit_config/config/ros2_controllers.yaml'].
+[INFO] [ros2-3]: process started with pid [5574]
+[ros2-3] [INFO] [1783186639.722874254] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [ros2-4]: process started with pid [5586]
+[ros2-4] [INFO] [1783186640.930784987] [spawner_ur_manipulator_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [move_group-5]: process started with pid [5598]
+[move_group-5] [INFO] [1783186641.192659309] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-5] [INFO] [1783186641.192781763] [moveit_robot_model.robot_model]: Loading robot model 'bcr_ur5e'...
+[move_group-5] [INFO] [1783186641.192796927] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-5] [INFO] [1783186641.303976138] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-5] [INFO] [1783186641.304869813] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-5] [INFO] [1783186641.307204687] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-5] [INFO] [1783186641.311176704] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-5] [INFO] [1783186641.311282954] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-5] [INFO] [1783186641.316762775] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-5] [INFO] [1783186641.316809175] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-5] [INFO] [1783186641.318423059] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-5] [INFO] [1783186641.319978998] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-5] [WARN] [1783186641.320274734] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-5] [ERROR] [1783186641.320305965] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-5] [INFO] [1783186641.328098615] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-5] [INFO] [1783186641.360381792] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-5] [INFO] [1783186641.366405747] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1783186641.366451525] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-5] [INFO] [1783186641.366464581] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-5] [INFO] [1783186641.366502032] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-5] [INFO] [1783186641.366540519] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-5] [INFO] [1783186641.366562135] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1783186641.366584406] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-5] [INFO] [1783186641.366605171] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was not set. Using default value: 0.020000
+[move_group-5] [INFO] [1783186641.366615476] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-5] [INFO] [1783186641.366646810] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-5] [INFO] [1783186641.366655369] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-5] [INFO] [1783186641.366663162] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-5] [INFO] [1783186641.366682008] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-5] [INFO] [1783186641.366693767] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-5] [INFO] [1783186641.414473834] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for ur_manipulator_controller
+[move_group-5] [INFO] [1783186641.415015671] [moveit.plugins.moveit_simple_controller_manager]: Returned 1 controllers in list
+[move_group-5] [INFO] [1783186641.415078239] [moveit.plugins.moveit_simple_controller_manager]: Returned 1 controllers in list
+[move_group-5] [INFO] [1783186641.416199707] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-5] [INFO] [1783186641.416234502] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-5] [INFO] [1783186641.467748659] [move_group.move_group]: 
+[move_group-5] 
+[move_group-5] ********************************************************
+[move_group-5] * MoveGroup using: 
+[move_group-5] *     - ApplyPlanningSceneService
+[move_group-5] *     - ClearOctomapService
+[move_group-5] *     - CartesianPathService
+[move_group-5] *     - ExecuteTrajectoryAction
+[move_group-5] *     - GetPlanningSceneService
+[move_group-5] *     - KinematicsService
+[move_group-5] *     - MoveAction
+[move_group-5] *     - MotionPlanService
+[move_group-5] *     - QueryPlannersService
+[move_group-5] *     - StateValidationService
+[move_group-5] ********************************************************
+[move_group-5] 
+[move_group-5] [INFO] [1783186641.467834867] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-5] [INFO] [1783186641.467861335] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-5] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-5] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-5] [0m[92m
+[move_group-5] You can start planning now!
+[move_group-5] 
+[INFO] [cycle_controller-6]: process started with pid [5621]
+[cycle_controller-6] [INFO] [1783186643.155568533] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[cycle_controller-6] [INFO] [1783186643.155966209] [moveit_robot_model.robot_model]: Loading robot model 'bcr_ur5e'...
+[cycle_controller-6] [INFO] [1783186643.155986688] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[cycle_controller-6] [INFO] [1783186643.268347988] [move_group_interface]: Ready to take commands for planning group ur_manipulator.
+[cycle_controller-6] [INFO] [1783186643.288119785] [bcr_cycle_controller]: BCR cycle controller ready.
+[INFO] [rviz2-7]: process started with pid [5639]
+[rviz2-7] QStandardPaths: wrong permissions on runtime directory /tmp, 0777 instead of 0700
+[rviz2-7] [INFO] [1783186644.469110553] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1783186644.469283571] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-7] [INFO] [1783186644.519831375] [rviz2]: Stereo is NOT SUPPORTED

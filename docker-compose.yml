@@ -19,4 +19,4 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - /dev/dri:/dev/dri
     working_dir: /ws
-    command: bash -lc "source /opt/ros/humble/setup.bash && tail -f /dev/null"
+    command: bash /ws/entrypoint.sh

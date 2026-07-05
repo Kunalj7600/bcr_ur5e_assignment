@@ -46,14 +46,26 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libxkbcommon-x11-0 \
     libglfw3 \
     libglfw3-dev \
+    libeigen3-dev \
+    ros-humble-control-toolbox \
+    ros-humble-ros2controlcli \
+    ros-humble-effort-controllers \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+    
 
 RUN pip3 install --no-cache-dir \
     mujoco \
     numpy \
     scipy \
     jsonschema
+    
+ARG MUJOCO_VERSION=3.2.7
+ENV MUJOCO_DIR=/opt/mujoco/mujoco-${MUJOCO_VERSION}
+RUN mkdir -p /opt/mujoco && \
+    wget -q https://github.com/google-deepmind/mujoco/releases/download/${MUJOCO_VERSION}/mujoco-${MUJOCO_VERSION}-linux-x86_64.tar.gz && \
+    tar -xzf mujoco-${MUJOCO_VERSION}-linux-x86_64.tar.gz -C /opt/mujoco && \
+    rm mujoco-${MUJOCO_VERSION}-linux-x86_64.tar.gz
 
 RUN rosdep init || true && rosdep update --rosdistro humble || true
 
